@@ -17,3 +17,7 @@ button{
 form{
   outline: black solid 1px;
 }
+img{
+ width: inherit;
+  height: auto;
+}

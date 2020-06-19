@@ -9,3 +9,11 @@
 button{
   width: 85px;
 }
+
+.cardW{
+  min-width: 5rem;
+}
+
+form{
+  outline: black solid 1px;
+}

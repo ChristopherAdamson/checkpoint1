@@ -9,7 +9,9 @@
 
 
 }
-
+.san{
+  font-family: 'Cinzel', serif;
+}
 @media only screen and (max-width: 600px){
   .tall{
     height: 35rem;
@@ -27,10 +29,13 @@ button{
   min-width: 5rem;
 }
 
-form{
-  outline: black solid 1px;
+
 }
 img{
  width: inherit;
   height: auto;
+}
+.b-l{
+  border-left: green solid 10px ;
+  max-height: 100px;
 }

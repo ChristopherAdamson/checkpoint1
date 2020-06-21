@@ -47,9 +47,9 @@
           <!-- switch all forms to inputs :) -->
           <input class="mt-3 rounded" type="text" placeholder="NAME">
           <input class="mt-3 rounded" type="text" placeholder="EMAIL">
-          <div class="d-inline-block">
-            <input class=" w-45  mt-3 rounded" type="text" placeholder="PHONE #">
-            <input class=" w-45  mt-3 rounded" type="text" placeholder="EXT.">
+          <div class="d-flex justify-content-between ">
+            <input class=" w-50  mt-3 rounded" type="text" placeholder="PHONE #">
+            <input class=" w-50  mt-3 rounded" type="text" placeholder="EXT.">
           </div>
           <input class="mt-3  rounded" type="text" placeholder="Message">
           <div class="form-check">
@@ -69,16 +69,17 @@
 
 
   <main data-spy="scroll" data-target="#navBar" dataoffset="0" class="container-fluid position-relative bg-success">
-    <div class="row p-3 tall">
+    <div class="row p-3 tall ">
       <!-- on mobile my positioning is till off, work on that -->
-      <div class="col-12 col-md-6 text-light">
+      <div class="col-12 col-md-6 text-light order-2 order-md-1 align-self-center jusitfy-content-center">
         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, unde.</h4>
         <h4>By Lorem, ipsum dolor.</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consectetur, est fuga adipisci, quisquam
           dignissimos deserunt eius repudiandae laborum unde soluta et esse, modi laudantium molestiae quidem vel fugit
           atque.</p>
       </div>
-      <div class="col-12 col-md-6 d-flex justify-content-center text-left align-content-space-around pt-5 mt-5">
+      <div
+        class="col-12 col-md-6 order-1 order-md-2  d-flex justify-content-center text-left align-content-space-around pt-5 mt-5">
         <div class="card card-body  position-absolute">
           <p><i class="fa fa-github text-success"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Praesentium?.</p>
@@ -102,8 +103,8 @@
 
 
 
-  <section class="container-fluid p-2">
-    <div class="row justify-content-end pt-5">
+  <section data-spy="scroll" data-target="#navBar" dataoffset="0" class="container-fluid p-2">
+    <div id="review" class="row justify-content-end pt-5">
       <div class="col-12 col-md-4 text-center"> <img src="" alt="">
         <img src="https://fakeimg.pl/200x400" alt="">
       </div>
@@ -121,8 +122,8 @@
     </div>
   </section>
 
-  <section data-spy="scroll" data-target="#navBar" dataoffset="0" class="container-fluid san">
-    <div id="review" class="row p-5 text-center">
+  <section class="container-fluid san">
+    <div class="row p-5 text-center">
       <div class="col-12 col-md-4 order-md-1 order-2 p-1">
         <div class="card card-body"> 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sequi vero nulla
           provident laborum obcaecati voluptatem porro nesciunt, consequatur commodi. Voluptatem quos adipisci incidunt
@@ -140,10 +141,12 @@
         </div>
       </div>
       <div class="col-12 col-md-4 order-md-3 order-3 p-1">
-        <div class="card card-body"> 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit sunt
-          temporibus
-          accusamus consequatur facilis placeat qui voluptates rem non at nemo pariatur, assumenda quisquam ratione
-          quasi eos est harum?</div>
+        <div class="card card-body">
+          <p> 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit sunt
+            temporibus
+            accusamus consequatur facilis placeat qui voluptates rem non at nemo pariatur, assumenda quisquam ratione
+            quasi eos est harum?
+        </div>
       </div>
     </div>
   </section>

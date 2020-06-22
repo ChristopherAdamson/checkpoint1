@@ -10,67 +10,59 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Check Point One!</title>
-  <!-- <style>
-    * {
-      /* height: 100px; */
-      /* outline: black solid 1px; */
-    }
-  </style> -->
 </head>
 
 <body>
   <header class="sticky-top ">
 
     <nav id="navBar" class="navbar  navbar-expand-lg navbar-dark bg-dark ">
-      <a class="navbar-brand" href="#">Home</a>
+      <a class="navbar-brand" href="#"><i class="fa fa-home"></i></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#review">Reviews</a>
-          <a class="nav-item nav-link" href="#contant">Contact Us!</a>
+          <a class="nav-item nav-link" href="#review">Middle</a>
+          <a class="nav-item nav-link" href="#contant">Footer</a>
         </div>
       </div>
     </nav>
   </header>
 
 
-  <section data-spy="scroll" data-target="#navBar" dataoffset="0"
-    class="container-fluid  position-relative img-bg bg-dark">
-    <div class="row p-2">
-      <div id="top" class="col-12 col-md-4">
-        <h5 class="text-light">Give Feedback!</h5>
+  <section class="container-fluid  img-bg bg-dark">
+    <div class="row p-2 pt-4">
+      <div class="col-12 col-md-4">
+        <h5 class="text-light">Subtle heading</h5>
         <div class="card card-body">
           <h4>Less subtle heading</h4>
-          <!-- switch all forms to inputs :) -->
           <input class="mt-3 rounded" type="text" placeholder="NAME">
           <input class="mt-3 rounded" type="text" placeholder="EMAIL">
           <div class="d-flex justify-content-between ">
             <input class=" w-50  mt-3 rounded" type="text" placeholder="PHONE #">
             <input class=" w-50  mt-3 rounded" type="text" placeholder="EXT.">
           </div>
-          <input class="mt-3  rounded" type="text" placeholder="Message">
+          <input class="mt-3 big rounded" type="text" placeholder="Message">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
             <label class="form-check-label" for="defaultCheck1">
               By checking this box I agree to the terms of the lorem ipsum dolor
             </label>
           </div>
-          <button class="btn btn-success text-right">Submit</button>
+          <button class="btn btn-success">Submit</button>
         </div>
       </div>
-      <div class="col-12 col-md-8 hide text-light b-l">
+      <div class="col-12 offset-md-1 col-md-6 hide text-light b-l san ">
         <h2>Text over an Image</h2>
         <p>Sub text shows up here to tell you how awesome our services are</p>
       </div>
   </section>
 
 
-  <main data-spy="scroll" data-target="#navBar" dataoffset="0" class="container-fluid position-relative bg-success">
-    <div class="row p-3 tall ">
-      <!-- on mobile my positioning is till off, work on that -->
+  <main data-spy="scroll" data-target="#navBar" dataoffset="0" class="container-fluid  bg-success">
+    <div class="row p-3 taller  tall ">
+      <!-- on mobile my positioning is till off. Tried to fix it and have had no luck -->
       <div class="col-12 col-md-6 text-light order-2 order-md-1 align-self-center jusitfy-content-center">
         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, unde.</h4>
         <h4>By Lorem, ipsum dolor.</h4>
@@ -79,17 +71,17 @@
           atque.</p>
       </div>
       <div
-        class="col-12 col-md-6 order-1 order-md-2  d-flex justify-content-center text-left align-content-space-around pt-5 mt-5">
+        class="col-12 col-md-6 order-1 order-md-2  d-flex justify-content-center text-left align-content-space-around pt-5">
         <div class="card card-body  position-absolute">
           <p><i class="fa fa-github text-success"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Praesentium?.</p>
-          <p><i class="fa fa-facebook text-success"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <p><i class="fa fa-facebook text-success"></i>Lorem ipsum dolor sit amet consectetur .
             Praesentium?.</p>
           <p><i class="fa fa-twitter text-success"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Praesentium?.</p>
           <p><i class="fa fa-youtube-square text-success"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Praesentium?.</p>
-          <p><i class="fa fa-tumblr-square text-success"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <p><i class="fa fa-tumblr-square text-success"></i>Lorem ipsum dolor sit consectetur adipisicing elit.
             Praesentium?.</p>
           <p><i class="fa fa-apple text-success"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Praesentium?.</p>
@@ -103,21 +95,24 @@
 
 
 
-  <section data-spy="scroll" data-target="#navBar" dataoffset="0" class="container-fluid p-2">
+  <section data-spy="scroll" data-target="#navBar" dataoffset="0" class="container-fluid">
     <div id="review" class="row justify-content-end pt-5">
-      <div class="col-12 col-md-4 text-center"> <img src="" alt="">
-        <img src="https://fakeimg.pl/200x400" alt="">
+      <div class="col-12 col-md-4 text-center">
+        <iframe width="350" height="375" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- <img src="https://fakeimg.pl/200x400" alt=""> -->
       </div>
       <div class="col-12 col-md-8 align-self-end">
-        <i class="fa fa-paw"></i>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo perferendis eveniet tenetur doloribus ut
+        <i class="fa fa-paw f-big text-success"></i>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
+        <h2>Illo perferendis eveniet tenetur doloribus ut
           culpa architecto mollitia sint? Perspiciatis commodi nemo quae?</h2>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores culpa quasi ab quae nam repudiandae
           nostrum, dolores iste optio voluptatum? Mollitia hic minus accusamus dolorum iure quo? Nobis, necessitatibus?
           Quod.
         </p>
-        <button class="btn btn-success">More</button>
+        <button class="btn btn-success float-right">More</button>
       </div>
     </div>
   </section>
@@ -125,9 +120,17 @@
   <section class="container-fluid san">
     <div class="row p-5 text-center">
       <div class="col-12 col-md-4 order-md-1 order-2 p-1">
-        <div class="card card-body"> 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sequi vero nulla
-          provident laborum obcaecati voluptatem porro nesciunt, consequatur commodi. Voluptatem quos adipisci incidunt
-          dolore tempora omnis consectetur nisi nobis!</div>
+        <div class="card card-body">
+          <p> 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sequi vero nulla
+            provident laborum obcaecati voluptatem porro nesciunt, consequatur commodi. Voluptatem quos adipisci
+            incidunt
+            dolore tempora omnis consectetur nisi nobis!
+          </p>
+          <p class="text-success">
+            Lorem ipsum dolor sit amet.
+          </p>
+          <p class="text-success">Lorem, dolor.</p>
+        </div>
       </div>
       <div class="col-12 col-md-4 order-md-2 order-1 p-1">
         <div class="card card-body">
@@ -138,6 +141,10 @@
             nulla, necessitatibus harum ipsam illum earum officiis animi rem corrupti alias? Ex, fugiat. Molestias
             repellendus magnam ipsa odit quam?
           </p>
+          <p class="text-success">
+            Lorem ipsum dolor sit amet.
+          </p>
+          <p class="text-success">Lorem, dolor.</p>
         </div>
       </div>
       <div class="col-12 col-md-4 order-md-3 order-3 p-1">
@@ -146,6 +153,11 @@
             temporibus
             accusamus consequatur facilis placeat qui voluptates rem non at nemo pariatur, assumenda quisquam ratione
             quasi eos est harum?
+          </p>
+          <p class="text-success">
+            Lorem ipsum dolor sit amet.
+          </p>
+          <p class="text-success">Lorem, dolor.</p>
         </div>
       </div>
     </div>
@@ -156,19 +168,16 @@
       <div class="col-12">
         <h1>Lorem ipsum dolor sit amet.</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis consequuntur, eveniet deleniti ducimus
-          iure nulla ex itaque veritatis dolorum commodi ipsam temporibus voluptates corporis recusandae consectetur
-          fugiat? Perferendis, aliquid aspernatur..</p>
+          iure nulla ex itaque veritatis.</p>
       </div>
     </div>
   </section>
 
 
-  <footer data-spy="scroll" data-target="#navBar" dataoffset="0" class="container bg-light text-success">
+  <footer data-spy="scroll" data-target="#navBar" dataoffset="0" class="container-fluid bg-light text-success">
     <div id="contant" class="row pt-5">
-      <div class="col-12">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis consequatur sit repudiandae
-          consequuntur, labore cupiditate quidem vitae temporibus incidunt blanditiis aspernatur iusto! Id nam tempore
-          recusandae. Et reiciendis placeat quibusdam!</p>
+      <div class="col-12 text-center">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. sit repudiandae consequuntur!</p>
       </div>
     </div>
   </footer>

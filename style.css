@@ -6,18 +6,23 @@
     width: 100%;
     height:auto;
   }
-
-
+  .tall{
+    height: 15rem;
+  }
 }
 .san{
   font-family: 'Cinzel', serif;
 }
 @media only screen and (max-width: 600px){
  
-   }
-   .hide{
-    display: none !important;
-  }
+  .hide{
+   display: none !important;
+ }
+ .taller{
+   height: 65rem;
+ }
+}
+
 
 button{
   width: 85px;
@@ -27,8 +32,12 @@ button{
   min-width: 5rem;
 }
 
-.tall{
-  height: 20rem;
+.big{
+  height: 5rem;
+}
+ 
+.f-big{
+  font-size: 300%;
 }
 img{
  max-width: inherit;
